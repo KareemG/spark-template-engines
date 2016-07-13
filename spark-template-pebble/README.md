@@ -23,8 +23,8 @@ public class PebbleExample {
 			attributes.put("message", "Hello World!");
 
 			// The hello.pebble file is located in directory:
-			// src/test/resources/spark/template/pebble
-			return new ModelAndView(attributes, "hello.pebble");
+			// src/test/resources/templates/pebble
+			return new ModelAndView(attributes, "templates/hello.pebble");
 		}, new PebbleTemplateEngine());
 	}
 }
